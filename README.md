@@ -18,7 +18,7 @@ Este proyecto fue Generado con Java version 20, Spring boot version 3.0.2
 
 
 ##Implementaciones en Reglas de negocio
-- Registro Medico:
+# Registro Medico:
 Nombre
 Correo electrónico
 Teléfono
@@ -27,14 +27,14 @@ Especialidad (Ortopedia, Cardiología, Ginecología o Dermatología)
 Dirección completa (calle, número, complemento, barrio, ciudad, estado y código postal)
 (Toda la información es obligatoria, excepto el número y el complemento de la dirección)
 
-- Listado Medico: 
+# Listado Medico: 
 -Nombre
 -Correo electrónico
 -documento
 -Especialidad
 (La lista  esta ordenada por nombre del médico en orden ascendente y paginada, mostrando 10 registros por página)
 
-- Actualizacion Medicos: 
+#Actualizacion Medicos: 
 El sistema debe tiene una funcionalidad de actualización de los datos de registro de médicos en la que se podrán actualizar las siguientes informaciones:
 
  -Nombre
@@ -46,14 +46,14 @@ El sistema debe validar las siguientes reglas de negocio:
 No permite la modificación del documento del médico;
 No permite la modificación de la especialidad del médico.
 
-- Eliminacion Medicos : 
+# Eliminacion Medicos : 
 El sistema debe tiene una funcionalidad que permita la eliminación de médicos registrados.
 
 El sistema valida las siguientes reglas de negocio:
 
 (La eliminación no debe borrar los datos del médico, sino que debe hacer que el médico sea "inactivo" en el sistema.)
 
-- Registro Pacientes: 
+# Registro Pacientes: 
 -Nombre
 -Correo electrónico
 -Teléfono
@@ -61,7 +61,7 @@ El sistema valida las siguientes reglas de negocio:
 Dirección completa (calle, número, complemento, barrio, ciudad, estado y código postal)
 Toda la información es obligatoria, excepto el número y el complemento de la dirección.
 
-- Listado de Pacientes: 
+# Listado de Pacientes: 
 El sistema tiene una funcionalidad de listado de pacientes en la que se muestra la siguiente información de cada uno de los pacientes registrados:
 
  -Nombre
@@ -69,7 +69,7 @@ El sistema tiene una funcionalidad de listado de pacientes en la que se muestra 
 -documento
 La lista debe estar ordenada por nombre del paciente en orden ascendente y paginada, mostrando 10 registros por página.
 
-- Actualizacion Pacientes: 
+# Actualizacion Pacientes: 
 El sistema tiene una funcionalidad de actualización de los datos de registro de pacientes en la que se podrán actualizar las siguientes informaciones:
 
  -Nombre
@@ -81,14 +81,14 @@ El sistema tiene una funcionalidad de actualización de los datos de registro de
  -No permite la modificación del correo electrónico del paciente;
 -No permite la modificación del documento del paciente.
 
-- Eliminacion de Pacientes:
+# Eliminacion de Pacientes:
  El sistema debe tener una funcionalidad que permita la eliminación de pacientes registrados.
 
  El sistema debe validar las siguientes reglas de negocio:
 
  (La eliminación no debe borrar los datos del paciente, sino que debe hacer que el paciente sea "inactivo" en el sistema.)
  
-- Cancelamiento de consultas
+# Cancelamiento de consultas
   El sistema cuenta con una funcionalidad que permite la cancelación de consultas, en la cual se delega la siguiente informacion:
 
  -Consulta
@@ -98,7 +98,7 @@ El sistema tiene una funcionalidad de actualización de los datos de registro de
 Es obligatorio informar el motivo de la cancelación de la consulta, entre las opciones: paciente se retiró, médico canceló u otras;
 -Una cita solo se puede cancelar con al menos 24 horas de anticipación.
 
-- Agendamiento de consultas:
+# Agendamiento de consultas:
 El sistema cuenta con una funcionalidad que permite agendar citas, en la cual se debe llenar la siguiente información:
 
  - Paciente
